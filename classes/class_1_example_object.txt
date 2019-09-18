@@ -1,0 +1,16 @@
+Noodles and Company Menu September 2019
+
+attributes:
+menuType: "L", "D"
+itemCount 15
+vegetarianOptions True
+foodEthnicity ["American", "Asian", "Italian"]
+menuDate 09/01/2019
+
+methods:
+changeEthnicity (change from "Italian" to "Mexican")
+  foodEthnicity = ["American", "Asian", "Mexican"]
+addItem: itemCount = 16
+changeMenuType (menuType changes from "L" to "B")
+  menuType = ["B", "D"]
+calculateMenuAge (09/17/19 - 09/01/19) = 17 days
