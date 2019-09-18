@@ -1,0 +1,16 @@
+class = decor
+
+attributes
+
+lightingFixture (string)
+monthlyBudget (integer)
+budgetChange (integer)
+tableColor (string)
+hasArt (boolean)
+
+methods:
+
+changeColor (change tableColor attribute)
+decreaseBudget (monthlyBudget + budgetChange)
+changeArt (change from true to false)
+changeLighting (change lightingFixture attribute)
