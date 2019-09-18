@@ -1,0 +1,18 @@
+instance= Sushi Hai decor
+
+class = decor
+
+attributes
+
+lightingFixture = "above table lights"
+monthlyBudget = 100
+budgetChange = -50
+tableColor = "white"
+hasArt = False
+
+methods:
+
+changeColor= (change tableColor from "white" to "blue")
+decreaseBudget= (100 - 50) = 50
+changeArt = (change from False to True)
+changeLighting= (change lightingFixture attribute to "candles on table")
