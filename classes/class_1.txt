@@ -1,14 +1,14 @@
 class = menu
 
 attributes:
-menuType (object/hash) (B=breakfast, L=lunch, D=dinner)
+menuType (string)
 itemCount (integer)
 vegetarianOptions (boolean)
-foodEthnicity (string, array)
+foodEthnicity (string)
 menuDate (datetime)
 
 methods:
 changeEthnicity (change from "Italian" to "Asian")
 addItem (itemCount +1)
-changeMenuType (menuType changes from "B" to "L")
+changeMenuType (menuType changes from "Breakfast" to "Lunch")
 calculateMenuAge (currentDate - menuDate)
