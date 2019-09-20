@@ -1,16 +1,16 @@
 Noodles and Company Menu September 2019
 
 attributes:
-menuType: "L", "D"
+menuType: "Lunch"
 itemCount 15
 vegetarianOptions True
-foodEthnicity ["American", "Asian", "Italian"]
+foodEthnicity "American"
 menuDate 09/01/2019
 
 methods:
-changeEthnicity (change from "Italian" to "Mexican")
-  foodEthnicity = ["American", "Asian", "Mexican"]
-addItem: itemCount = 16
-changeMenuType (menuType changes from "L" to "B")
-  menuType = ["B", "D"]
+changeEthnicity (change from "American" to "Asian")
+  foodEthnicity = "Asian"
+addItem itemCount = 16
+changeMenuType (menuType changes from "Lunch" to "Dinner")
+  menuType = "Dinner"
 calculateMenuAge (09/17/19 - 09/01/19) = 17 days
